@@ -31,4 +31,4 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tuusuario/curso-nodejs-auth.git
+git clone https://github.com/felipe-094/curso-nodejs-auth.git
