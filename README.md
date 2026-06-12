@@ -1,34 +1,72 @@
-# Curso Node.js Authentication Project
+# 🔐 Node.js Authentication API
 
-Este proyecto es una aplicación desarrollada con Node.js enfocada en la autenticación de usuarios. Incluye funcionalidades básicas como registro, inicio de sesión y manejo de usuarios, con el objetivo de practicar y fortalecer habilidades en desarrollo backend.
+API de autenticación desarrollada con **Node.js** y **Express**, enfocada en la implementación de buenas prácticas para el manejo de usuarios, validación de datos y seguridad en aplicaciones backend.
 
----
+## 🚀 Características
 
-## 🚀 Tecnologías utilizadas
+* Registro de usuarios.
+* Inicio de sesión con autenticación.
+* Validación de datos mediante esquemas.
+* Arquitectura modular y organizada.
+* Manejo de variables de entorno.
+* Separación de responsabilidades mediante servicios y middlewares.
 
-- Node.js
-- Express
-- JavaScript
-- MongoDB 
-- JWT 
+## 🛠️ Tecnologías utilizadas
 
----
+* Node.js
+* Express.js
+* JavaScript
+* JWT (JSON Web Tokens)
+* Bcrypt
+* Base de datos (según corresponda)
+* Git y GitHub
 
-## 📂 Funcionalidades
+## 📂 Estructura del proyecto
 
-- Registro de usuarios
-- Inicio de sesión
-- Validación de credenciales
-- Protección de rutas privadas
-- Manejo de sesiones o tokens
-- Cierre de sesión (si aplica)
+config/ → Configuración general del proyecto
 
----
+db/ → Conexión y configuración de la base de datos
 
-## ⚙️ Instalación y ejecución
+libs/ → Librerías y utilidades reutilizables
 
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+middlewares/ → Middlewares personalizados
+
+routes/ → Definición de rutas de la API
+
+schemas/ → Validación de datos
+
+services/ → Lógica de negocio
+
+utils/ → Funciones auxiliares
+
+## ⚙️ Instalación
 
 1. Clona el repositorio:
-```bash
+
 git clone https://github.com/felipe-094/curso-nodejs-auth.git
+
+2. Ingresa al directorio del proyecto:
+
+cd curso-nodejs-auth
+
+3. Instala las dependencias:
+
+npm install
+
+4. Crea un archivo `.env` tomando como referencia `.env.example`.
+
+5. Ejecuta el proyecto:
+
+npm run dev
+
+## 📌 Objetivo del proyecto
+
+Este proyecto fue desarrollado como parte de mi proceso de aprendizaje en desarrollo backend, con el objetivo de fortalecer conocimientos en autenticación, organización de proyectos con Node.js y buenas prácticas de programación.
+
+## 👨‍💻 Autor
+
+**Luis Felipe**
+
+GitHub: https://github.com/felipe-094
+
+LinkedIn: https://www.linkedin.com/in/felipe-quintero-8b99812a1/
