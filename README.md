@@ -9,9 +9,8 @@ Este proyecto es una aplicación desarrollada con Node.js enfocada en la autenti
 - Node.js
 - Express
 - JavaScript
-- MongoDB (si aplica)
-- JWT (si aplica)
-- HTML / CSS (si aplica)
+- MongoDB 
+- JWT 
 
 ---
 
